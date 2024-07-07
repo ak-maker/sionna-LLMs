@@ -72,7 +72,8 @@ scene.preview()
 ```
 
 Simulation Results:
-![](C:/Users/Logan/Downloads/question1.gif)
+![question1](https://github.com/ak-maker/sionna-LLMs/assets/64005655/bc5863ca-1ad8-40d8-8548-4293a3eec080)
+
 
 ### (c) Question 2: 
 #### I have installed Sionna. How to perform raytracing?
@@ -117,7 +118,8 @@ scene.preview(paths=paths, resolution=[1000, 600])
 ```
 
 Simulation Result:
-![](C:/Users/Logan/Downloads/question2.gif)
+![question2](https://github.com/ak-maker/sionna-LLMs/assets/64005655/29f4eb87-1ffa-4720-97cb-bb5eaf54bc6f)
+
 
 ### (d) Question 2 follow-up: 
 #### How to compute the impulse response accordingly?
@@ -154,7 +156,8 @@ plt.show()
 ```
 
 Simulation Result:
-![img_1.png](img_1.png)
+![img_1](https://github.com/ak-maker/sionna-LLMs/assets/64005655/39c5812a-84af-455d-8128-451e55cadafc)
+
 
 ### (e) Question 3: 
 ####  Create a 2D visualization of the coverage map of muniche scene.
@@ -200,7 +203,7 @@ cm.show(tx=0)
 ```
 
 Simulation Result:
-![img_2.png](img_2.png)
+![img_2](https://github.com/ak-maker/sionna-LLMs/assets/64005655/ec9d9d4c-1f67-49fa-99a0-1bd8bd44d358)
 
 ### (f) 3D View of the Coverage Map:
 #### Answer:
@@ -211,4 +214,5 @@ scene.preview(coverage_map=cm)
 ```
 
 Simulation Result:
-![](C:/Users/Logan/Downloads/last_question.gif)
+![last_question7](https://github.com/ak-maker/sionna-LLMs/assets/64005655/be2597cb-62f4-4399-844d-130ea170572c)
+
