@@ -43,7 +43,8 @@ paths = scene.compute_paths(max_depth=5, num_samples=1e6, los=True, reflection=T
 scene.preview(paths=paths, show_devices=True, show_paths=True)
 ```
 
-Simulation Results:
+Simulation Results:  
+
 ![usercase](https://github.com/ak-maker/sionna-LLMs/assets/64005655/87682b6f-645b-4398-ac3e-6720b917963d)
 
 
@@ -71,7 +72,8 @@ scene = load_scene(sionna.rt.scene.etoile)
 scene.preview()
 ```
 
-Simulation Results:
+Simulation Results:  
+
 ![question1](https://github.com/ak-maker/sionna-LLMs/assets/64005655/bc5863ca-1ad8-40d8-8548-4293a3eec080)
 
 
@@ -117,7 +119,8 @@ paths = scene.compute_paths(max_depth=3,
 scene.preview(paths=paths, resolution=[1000, 600])
 ```
 
-Simulation Result:
+Simulation Result:  
+
 ![question2](https://github.com/ak-maker/sionna-LLMs/assets/64005655/29f4eb87-1ffa-4720-97cb-bb5eaf54bc6f)
 
 
@@ -155,7 +158,8 @@ plt.show()
 # print(f"Computed gain for the receiver {n}: {g_db_n.numpy()} dB")
 ```
 
-Simulation Result:
+Simulation Result:  
+
 ![img_1](https://github.com/ak-maker/sionna-LLMs/assets/64005655/39c5812a-84af-455d-8128-451e55cadafc)
 
 
@@ -202,7 +206,8 @@ scene.add(Camera("birds_view", position=bird_pos, look_at=tx_pos))
 cm.show(tx=0)
 ```
 
-Simulation Result:
+Simulation Result:  
+
 ![img_2](https://github.com/ak-maker/sionna-LLMs/assets/64005655/ec9d9d4c-1f67-49fa-99a0-1bd8bd44d358)
 
 ### (f) 3D View of the Coverage Map:
@@ -213,6 +218,7 @@ The code is as follows:
 scene.preview(coverage_map=cm)
 ```
 
-Simulation Result:
+Simulation Result:  
+
 ![last_question7](https://github.com/ak-maker/sionna-LLMs/assets/64005655/be2597cb-62f4-4399-844d-130ea170572c)
 
