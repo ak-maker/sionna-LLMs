@@ -43,7 +43,7 @@ paths = scene.compute_paths(max_depth=5, num_samples=1e6, los=True, reflection=T
 scene.preview(paths=paths, show_devices=True, show_paths=True)
 ```
 
-Simulation Results:  
+Simulation Result:  
 
 ![usercase](https://github.com/ak-maker/sionna-LLMs/assets/64005655/87682b6f-645b-4398-ac3e-6720b917963d)
 
@@ -72,7 +72,7 @@ scene = load_scene(sionna.rt.scene.etoile)
 scene.preview()
 ```
 
-Simulation Results:  
+Simulation Result:  
 
 ![question1](https://github.com/ak-maker/sionna-LLMs/assets/64005655/bc5863ca-1ad8-40d8-8548-4293a3eec080)
 
