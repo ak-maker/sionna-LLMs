@@ -44,7 +44,7 @@ scene.preview(paths=paths, show_devices=True, show_paths=True)
 ```
 
 Simulation Results:
-https://github.com/ak-maker/sionna-LLMs/assets/64005655/e7db1f88-49dc-41bc-a2aa-a4afd808d5a5
+!(https://github.com/ak-maker/sionna-LLMs/assets/64005655/e7db1f88-49dc-41bc-a2aa-a4afd808d5a5)
 
 
 
