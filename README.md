@@ -5,7 +5,8 @@
 #### How can you configure and compute propagation paths in a Munich scene using Sionna’s compute_paths function? Include details on setting up planar arrays for transmitters and receivers, adding a transmitter and a receiver to the scene, computing the paths, and visualizing the paths in a preview.
 #### Answer:
 Our LLM provides step-by-step explanations with code snippets as shown in the Figure below:
-![img.png](img.png)  
+![img](https://github.com/ak-maker/sionna-LLMs/assets/64005655/7fa00b4e-8ff0-4fee-9576-58124c4d6903)
+
 We combine the code as follows:  
 ```python
 import numpy as np
