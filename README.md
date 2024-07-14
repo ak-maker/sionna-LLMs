@@ -1,6 +1,11 @@
 # Revolutionizing-Wireless-Modeling-and-Simulation-with-Network-Oriented-LLMs
 ## Demo
 
+### Here is a demo video demonstrating how to run the demo and the results obtained after running the code. The code is ready to run without any modifications. Complete screenshots of the demo are provided below the video.  
+https://github.com/user-attachments/assets/386ac3b4-9053-4cd0-9da5-cf0320c350d9
+
+
+
 ### (a) Question from User Case Demo: 
 #### How can you configure and compute propagation paths in a Munich scene using Sionna’s compute_paths function? Include details on setting up planar arrays for transmitters and receivers, adding a transmitter and a receiver to the scene, computing the paths, and visualizing the paths in a preview.
 #### Answer:
