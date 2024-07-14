@@ -61,7 +61,7 @@ def question(ctx_fn):
         "<CONTEXT>\n"
         f"{context}\n"
         "</CONTEXT>\n\n"
-        "Cover all the information of the context, including codes, illustration, parameters, inputs and outputs of the instance, properties, raises and notes."
+        "Cover all the information of the context, including codes, illustrations, parameters, inputs and outputs of the instance, properties, raises, and notes."
         "These instructions are crucial for teaching the model to effectively understand and apply Sionna's code and APIs, tailored to real-world programming scenarios."
     )
     return prompt
@@ -73,6 +73,6 @@ def reduce(qs):
         "Several questions are generated as follows:\n"
         f"{qs}\n"
         "These questions may be duplicated or off-the-topic of sionna. Please reduce the candidates.\n"
-        "Return me the instructions with each line start with \"INSTRUCTION:\".\n\n"
+        "Return me the instructions with each line starting with \"INSTRUCTION:\".\n\n"
     )
     return prompt
