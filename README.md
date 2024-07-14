@@ -2,9 +2,10 @@
 ## Demo
 
 ### Here is a demo video demonstrating how to run the demo and the results obtained after running the code. The code is ready to run without any modifications. Complete screenshots of the demo are provided below the video.  
-https://github.com/user-attachments/assets/386ac3b4-9053-4cd0-9da5-cf0320c350d9  
+https://github.com/user-attachments/assets/8ee5a88b-d336-47c1-bcb2-e2ce1e9042bb  
 
-![image](https://github.com/user-attachments/assets/14600cee-cddd-4d10-b145-ed08e9f120b9)
+![image](https://github.com/user-attachments/assets/1d4f4d7b-fb55-4f6b-bc36-75ff491a361c)
+
 
 
 
