@@ -5,7 +5,7 @@ from typing import Any
 from click import UsageError
 
 
-CONFIG_PATH = Path("E:\python\sionna-rag\.env")
+CONFIG_PATH = Path("<Your Path of .env file in RAG>")
 
 # TODO: Refactor ENV variables with SGPT_ prefix.
 DEFAULT_CONFIG = {
