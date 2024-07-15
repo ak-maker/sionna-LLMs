@@ -1,9 +1,9 @@
 # Revolutionizing-Wireless-Modeling-and-Simulation-with-Network-Oriented-LLMs
 ## Demo
 
-### Here is a demo video demonstrating how to run the demo and the results obtained after running the code. The code is ready to run without any modifications. Complete screenshots of the demo are provided below the video.  
+### Here is a demo video demonstrating how to run the demo and the results obtained after running the code. The code is ready to run without any modifications. 
 https://github.com/user-attachments/assets/8ee5a88b-d336-47c1-bcb2-e2ce1e9042bb  
-
+### Complete screenshots of the demo are provided below the video.  
 ![image](https://github.com/user-attachments/assets/1d4f4d7b-fb55-4f6b-bc36-75ff491a361c)
 
 
