@@ -238,11 +238,11 @@ Simulation Result:
 ### Authors
 The NetLLM module and simulator is developed and maintained by:
 
- Jiewen Liu (NCSU)
+ 1. Jiewen Liu (NCSU)
 
- Zhiyuan Peng (NCSU)
+ 2. Zhiyuan Peng (NCSU)
 
- Yuchen Liu (NCSU)
+ 3. Yuchen Liu (NCSU)
 
 ### Citation
 @inproceedings{Liu2024digital,
