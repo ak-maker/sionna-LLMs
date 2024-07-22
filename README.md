@@ -234,3 +234,19 @@ Simulation Result:
 
 ![last_question7](https://github.com/ak-maker/sionna-LLMs/assets/64005655/be2597cb-62f4-4399-844d-130ea170572c)
 
+
+### Authors
+The NetLLM module and simulator is developed and maintained by:
+
+Jiewen Liu (NCSU)
+Zhiyuan Peng (NCSU)
+Yuchen Liu (NCSU)
+
+### Cite
+@inproceedings{Liu2024digital,
+  title={Revolutionizing Wireless Modeling and Simulation with Network Oriented LLMs},
+  author={Liu, J. and Peng, Z. and Xu, D. and Liu, Y.},
+  booktitle={IEEE/ACM xxx},
+  year={2024}
+}
+
