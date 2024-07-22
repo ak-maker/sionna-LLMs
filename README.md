@@ -239,14 +239,21 @@ Simulation Result:
 The NetLLM module and simulator is developed and maintained by:
 
 Jiewen Liu (NCSU)
+
 Zhiyuan Peng (NCSU)
+
 Yuchen Liu (NCSU)
 
-### Cite
+### Citation
 @inproceedings{Liu2024digital,
+
   title={Revolutionizing Wireless Modeling and Simulation with Network Oriented LLMs},
+  
   author={Liu, J. and Peng, Z. and Xu, D. and Liu, Y.},
+  
   booktitle={IEEE/ACM xxx},
+  
   year={2024}
+  
 }
 
