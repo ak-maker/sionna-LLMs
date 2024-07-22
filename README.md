@@ -1,7 +1,7 @@
 # Revolutionizing-Wireless-Modeling-and-Simulation-with-Network-Oriented-LLMs
 ## Demo
 
-### Here is a demo video demonstrating how to run the demo and the results obtained after running the code. The code is ready to run without any modifications. 
+### Here is a demo video demonstrating how to run the network simulation using the natural language with our NetLLM.  
 
 
 https://github.com/user-attachments/assets/5f93dd0e-d88d-4ea1-ad11-31936d7cc6f6
