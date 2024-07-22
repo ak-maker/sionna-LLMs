@@ -245,7 +245,7 @@ The NetLLM module and simulator is developed and maintained by:
  3. Yuchen Liu (NCSU)
 
 ### Citation
-@inproceedings{Liu2024digital,
+@inproceedings{Liu2024revolu,
 
   title={Revolutionizing Wireless Modeling and Simulation with Network Oriented LLMs},
   
