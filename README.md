@@ -137,7 +137,7 @@ Simulation Result:
 
 
 ### (d) Question 2 follow-up: 
-#### How to compute the impulse response accordingly?
+#### How to compute the channel impulse response accordingly?
 #### Answer:
 The code is as follows:
 ```python
