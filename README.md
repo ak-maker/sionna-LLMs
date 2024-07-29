@@ -29,7 +29,29 @@ For fine-tuning, open the `model_creation.ipynb` and `model_evaluation.ipynb` no
 ```
 os.environ["AZURE_OPENAI_KEY"] = "<YOUR_AZURE_API_KEY>"
 ```
-Replace <YOUR_AZURE_API_KEY> with your own Azure OpenAI key for fine-tuning.
+Replace <YOUR_AZURE_API_KEY> with your own Azure OpenAI key for fine-tuning.  
+
+## Run the code
+The project comprises three main sections: data generation, instruction fine-tuning, and RAG.
+
+1. **Data Generation**: This section involves crawling, processing, and generating instruction-answer pairs for the Sionna dataset.
+2. **Instruction Fine-Tuning**: This section focuses on fine-tuning GPT models using the instruction-answer pairs generated in the data generation section.
+3. **RAG**: This section enhances the answer generation process using Retrieval-Augmented Generation (RAG).
+
+For detailed experimental procedures and results, please refer to the associated paper.  
+
+To run the data generation section code, please navigate to the `/DataPreparation` directory and execute the `process.sh` script. 
+
+In the `markdown` and `chunk` directories, you will find:
+- Markdown files: These files contains the information crawled by crawler.py from the [Sionna official website](https://nvlabs.github.io/sionna/).
+- Cleaned and chunked JSONL files: These files are processed using the following files from the RAG directory:
+  - `/code/preprocess/clean.py`
+  - `/code/preprocess/chunk.py`
+
+To execute the fine-tuning process, please follow the code in `model_creation.ipynb`. The Sionna dataset is partitioned into training, validation, and testing datasets using `split_IA_total_to_datasets.py`.
+
+To execute the RAG process, begin by referring to `run.sh` for data cleaning, chunking, and vector database creation. Subsequently, refer to `run_gpt4-128k.sh` for the retriever and reranker steps.
+
 
 ## Demo
 
