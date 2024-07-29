@@ -4,6 +4,32 @@
 ```
 pip3 install -r requirements.txt
 ```
+### Create `.env`  
+Please create a file named `.env` in the `/RAG` directory and add the following content. Remember to replace `<YOUR_API_KEY>` with your own openai api key and `<YOUR_COHERE_KEY>` with your own cohere api key.  
+```
+base_url=https://drchat.xyz
+api_key=<YOUR_API_KEY>
+embedding_model=text-embedding-3-small
+llm=gpt4-1106-preview
+vectordb=sionna_db
+evaluator=gpt4-32k
+cohere_key=<YOUR_COHERE_KEY>
+reranker=rerank-english-v3.0
+```
+
+### Configure the OpenAI API in data generation and fine-tuning process
+For data generation, open the `parallel_request.py` file and locate the line:
+
+```python
+os.environ["OPENAI_API_KEY"] = "<YOUR_API_KEY>"
+```
+Replace `<YOUR_API_KEY>` with your own OpenAI API key, as specified in the `Create .env` section.
+
+For fine-tuning, open the `model_creation.ipynb` and `model_evaluation.ipynb` notebooks. Locate the line:
+```
+os.environ["AZURE_OPENAI_KEY"] = "<YOUR_AZURE_API_KEY>"
+```
+Replace <YOUR_AZURE_API_KEY> with your own Azure OpenAI key for fine-tuning.
 
 ## Demo
 
