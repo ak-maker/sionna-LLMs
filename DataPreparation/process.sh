@@ -17,11 +17,11 @@ for FILE in "$DATA_PREP_DIR/chunk"/*.jsonl; do
     # Execute parallel_request.py with test.jsonl and test_results.jsonl
     python "$DATA_PREP_DIR/parallel_request.py" "$DATA_PREP_DIR/test.jsonl" "$DATA_PREP_DIR/test_results.jsonl"
 
-    # Execute test_file_transfer.py
     python "$DATA_PREP_DIR/test_file_transfer.py"
 
-    # Execute question_dedupliation.py
     python "$DATA_PREP_DIR/question_dedupliation.py"
+
+    python "$DATA_PREP_DIR/parallel_request.py" "$DATA_PREP_DIR/test.jsonl" "$DATA_PREP_DIR/test_results.jsonl"
 
     # Execute answer_generator.py with the name of the current chunk file
     python "$DATA_PREP_DIR/answer_generator.py" "$FILE"
