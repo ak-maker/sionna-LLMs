@@ -466,7 +466,7 @@ def inplace_sort_jsonl(fname):
         for _, line in data:
             writer.write(json.dumps(line)+'\n')
 
-os.environ["OPENAI_API_KEY"] = "<YOUR-API-KEY>"
+os.environ["OPENAI_API_KEY"] = "<YOUR_API_KEY>"
 @app.command()
 def cli(
     input_filepath: Annotated[Path, typer.Argument(help="an jsonl file stores lines of inputs")],
