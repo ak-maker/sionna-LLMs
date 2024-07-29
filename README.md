@@ -4,7 +4,11 @@
 ### Here is a demo video demonstrating how to run the network simulation using natural language with our NetLLM.  
 
 
-https://github.com/user-attachments/assets/5f93dd0e-d88d-4ea1-ad11-31936d7cc6f6
+
+
+https://github.com/user-attachments/assets/76e26b2c-e36f-4437-adc9-644620fc57c0
+
+
 
 
 ### Complete screenshots of the demo are provided below the video.  
