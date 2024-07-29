@@ -1,4 +1,7 @@
 # Revolutionizing-Wireless-Modeling-and-Simulation-with-Network-Oriented-LLMs
+## Quick Start
+### Install required packages
+
 ## Demo
 
 ### Here is a demo video demonstrating how to run the network simulation using natural language with our NetLLM.  
