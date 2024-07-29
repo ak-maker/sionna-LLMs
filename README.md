@@ -1,6 +1,9 @@
 # Revolutionizing-Wireless-Modeling-and-Simulation-with-Network-Oriented-LLMs
 ## Quick Start
 ### Install required packages
+```
+pip3 install -r requirements.txt
+```
 
 ## Demo
 
