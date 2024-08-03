@@ -1,4 +1,4 @@
-INSTRUCTION: Explain how to use physical uplink shared channel (PUSCH) in 5G NR module of Sionna's API.
+INSTRUCTION: Explain how to use physical uplink shared channel (PUSCH) in 5G NR module of Sionna's API.    
 ANSWER:To use Physical Uplink Shared Channel (PUSCH) in 5G NR module of Sionna's API, you would need to follow these steps:
 
 1. First, you need to create a PUSCH configuration with default settings:
@@ -39,7 +39,7 @@ Remember to replace `PUSCHConfig()`, `PUSCHTransmitter(pusch_config)` and `PUSCH
 
 This will generate a standard-compliant simulation of the 5G NR PUSCH, return the 'x' and 'b_hat' arrays corresponding to the transmitted and recovered data, and print the Bit Error Rate (BER) for the transmission.
 
-INSTRUCTION: Specify the process of creating a PUSCH configuration using default settings in Sionna's API.
+INSTRUCTION: Specify the process of creating a PUSCH configuration using default settings in Sionna's API.    
 ANSWER:The process of creating a Physical Uplink Shared Channel (PUSCH) configuration with default settings using Sionna's API involves the following steps:
 
 1. Import the PUSCHConfig function from the `sionna.nr` module.
