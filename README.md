@@ -25,7 +25,7 @@ os.environ["OPENAI_API_KEY"] = "<YOUR_API_KEY>"
 ```
 Replace `<YOUR_API_KEY>` with your own OpenAI API key, as specified in the `Create .env` section.  
 
-In the /DataPreparation directory, locate the .env file, replacing <YOUR_API_KEY> with your actual OpenAI API key:
+In the /DataPreparation directory, locate the `.env` file, replacing `<YOUR_API_KEY>` with your actual OpenAI API key.
 
 For fine-tuning, open the `model_creation.ipynb` and `model_evaluation.ipynb` notebooks. Locate the line:
 ```
