@@ -304,6 +304,12 @@ The NetLLM module and simulator is developed and maintained by:
 
  3. Yuchen Liu (NCSU)
 
+### Acknowledgement
+
+ 1. NCSU Research Funds
+
+ 1. Microsoft Accelerating Foundation Models Research Funds
+
 ### Citation
 @inproceedings{Liu2024revolu,
 
