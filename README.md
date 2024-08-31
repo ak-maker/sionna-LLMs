@@ -317,7 +317,7 @@ The NetLLM module and simulator is developed and maintained by:
   
   author={Liu, J. and Peng, Z. and Xu, D. and Liu, Y.},
   
-  booktitle={IEEE/ACM xxx},
+  booktitle={43rd IEEE International Performance Computing and Communications Conference},
   
   year={2024}
   
