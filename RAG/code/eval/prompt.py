@@ -157,7 +157,7 @@ Sample 2:
     <th>Correctness: Limited Correctness</th>
   </tr>
   <tr>
-    <td>Score: 2 points, within the 'Partially Correct' level (1-3 points).</td>
+    <td>Score: 2 points, within the 'Limited Correct' level (1-3 points).</td>
   </tr>
   <tr>
     <td>Question: Explain the assertion errors that might be raised when initializing a RandomInterleaver and the parameters which could trigger them.</td>
